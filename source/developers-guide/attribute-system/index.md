@@ -500,7 +500,7 @@ Through the new attribute system a new search controller was implemented, which 
 
 Each entity can configure their own data providers and search gateways. All search repositories are stored in the `\Shopware\Bundle\AttributeBundle\Repository\Registry`.
 
-# Define own single- and multi-selection
+### Define own single- and multi-selection
 Shopware supports different single and multi selections for a single attribute. This entities are defined in `\Shopware\Bundle\AttributeBundle\Service\TypeMapping::getEntities`.
 It is really simple to define own single and multi selections for plugin entities. It is only required to configure the entity in the attribute configuration.
 ```
@@ -652,3 +652,5 @@ Ext.define('Shopware.form.field.SwagAttributeGrid', {
     }
 });
 ```
+
+Plugin Download: [SwagAttribute.zip](/exampleplugins/SwagAttribute.zip)
